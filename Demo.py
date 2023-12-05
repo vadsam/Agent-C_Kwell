@@ -34,7 +34,7 @@ def match_statement(statement, values):
             break
     return matched_value
 
-openai.api_key = st.secrets.OPENAI_API_KEY
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 st.title(":male-detective:	Agent C-Kwell")
 
