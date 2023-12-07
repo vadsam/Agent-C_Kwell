@@ -31,6 +31,7 @@ The query should not fail due to case insensitivity, where required conver compa
 7. If the user asks for a basic chart, do not say you cannot generate graphs
 8. DO NOT provide any statement like replace the table with correct name etc.
 9. NO EXPLANATION NEEDS TO BE GIVEN ABOUT HOW THE QUERY IS BUILT OR LOGIC OF THE QUERY
+10. If the user asks for a visualization and has not provided a chart type. Ask what type of chart they want. Avaialble chart types - Bar, Line, Pie, Area
 </rules>
 
 Don't forget to use "ilike %keyword%" for fuzzy match queries (especially for variable_name column)
