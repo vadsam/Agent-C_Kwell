@@ -6,7 +6,7 @@ import altair as alt
 from DemoPrompts import get_system_prompt
 from decimal import Decimal  # Import Decimal type
 
-# Function to create Altair chart based on chart type and DataFrame
+# Function to create Altair chart based on chart type and DataFrame check
 def create_altair_chart(chart_type, df):
     if chart_type == 'bar':
         chart = alt.Chart(df).mark_bar().encode(x=df.columns[0], y=df.columns[1], text=alt.Text(df.columns[1], format=',.2f'))
