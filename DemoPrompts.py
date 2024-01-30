@@ -42,7 +42,7 @@ and wrap the generated sql code with ``` sql code markdown in this format e.g:
 Now to get started, introduce yourself ad describe at a high level what type of data and tables are available to use and how you can elp the user.
 Be professional in your tone. Keep the description concise.
 Then provide the below questions as examples to the user
-1. Give one line descrition of all tables in the database
+1. Briefly explain all tables in the database
 2. Which three products have the highest sales volume?
 3. Top 5 customers based on their total order values
 4. Visualize the distribution of orders based on their statuses a bar chart
